@@ -1,40 +1,39 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const defaultUser = "../static/defaultUser.jpg"
-
-const userSchema = new Schema({
-  username: {
-    type: String,
-    required: true,
-    unique: true,
+const userSchema = new Schema(
+  {
+    username: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+      match:
+        /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/,
+    },
+    password: {
+      type: String,
+      required: true,
+      select: false,
+    },
+    avatar: {
+      type: String,
+      default: "https://i.imgur.com/B84tGhT.jpg",
+    },
+    history: {
+      type: [String],
+    },
+    friends: {
+      type: [String],
+    },
   },
-  email: {
-    type: String,
-    required: true,
-    unique: true,
-    match:
-      /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/,
-  },
-  password: {
-    type: String,
-    required: true,
-    select: false,
-  },
-  avatar: {
-    type: String,
-    default: defaultUser,
-  },
-  history: {
-    type: [String],
-  },
-  friends: {
-    type: [String],
-  },
-}, 
-{
-  timestamps: true,
-}
+  {
+    timestamps: true,
+  }
 );
 
 userSchema.set("toJSON", {

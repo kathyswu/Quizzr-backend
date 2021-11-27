@@ -1,10 +1,11 @@
 // JSON web token
 const jwt = require("jsonwebtoken");
 
+// .env variables
 require("dotenv").config();
-
 const secret = process.env.SECRET;
 
+// JWT verification
 module.exports = async (req, res, next) => {
   try {
     const bearer = req.headers.authorization;
@@ -15,15 +16,14 @@ module.exports = async (req, res, next) => {
 
     // Verify token
     const payload = await jwt.verify(token, secret);
-    console.log({ payload });
+
     req.userId = payload._id;
 
     next();
-
-  } catch (err) {
-    console.log(err);
+  } catch (error) {
+    console.log(error);
     return res
       .status(500)
-      .json({ status: 500, message: "Internal Server Error" });
+      .json({ status: 500, message: "Error in JWT verification" });
   }
 };

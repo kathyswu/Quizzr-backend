@@ -1,0 +1,18 @@
+{
+  "quizzes": [
+    {
+      "title": "",
+      "category": "",
+      "questions": [
+        {
+          "answer" : {
+            "content": "",
+            "correct": false
+          }
+        }
+      ],
+      "user": ""
+
+    }
+  ]
+}

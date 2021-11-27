@@ -1,8 +1,12 @@
 // Imports
 const express = require("express");
 const cors = require("cors");
-const routes = require("./routes");
+//const routes = require("./routes");
 
+// Require database connection
+require("./config/db.connection");
+
+// Use .env variables
 require("dotenv").config();
 
 const port = process.env.PORT || 4000;

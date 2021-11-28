@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { Quiz } = require("../models");
 require("dotenv").config();
 
 const connectionString =

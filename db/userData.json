@@ -1,9 +1,7 @@
-{
-  "users": [{
-    "username": "",
-    "email": "",
-    "password": "",
-    "avatar": ""
-
-  }]
+{ 
+  "kathy": {
+    "username": "kathy",
+    "email": "kathy.s.wu@hotmail.com",
+    "password": "test123"
+  }
 }

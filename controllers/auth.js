@@ -2,6 +2,7 @@
 const db = require("../models");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+const hashAndSaltPassword = require("../utils/hashAndSaltPassword");
 
 // .env variables
 require("dotenv").config();
@@ -18,8 +19,7 @@ const register = async (req, res) => {
           "This email has already been registered. Please try another email address.",
       });
 
-    const salt = await bcrypt.genSalt(10);
-    const hash = await bcrypt.hash(req.body.password, salt);
+    const hash = hashAndSaltPassword(req.body.password);
     const createdUser = await db.User.create({ ...req.body, password: hash });
 
     return res

@@ -13,15 +13,25 @@ const QuizSchema = new Schema(
     },
     questions: [
       {
-        answer: {
-          content: {
+        question: {
+          text: {
             type: String,
             required: true,
           },
-          correct: {
-            type: Boolean,
-            required: true,
-          },
+          options: [
+            {
+              answer: {
+                content: {
+                  type: String,
+                  required: true,
+                },
+                correct: {
+                  type: Boolean,
+                  required: true,
+                },
+              },
+            },
+          ],
         },
       },
     ],

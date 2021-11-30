@@ -19,13 +19,14 @@ const register = async (req, res) => {
           "This email has already been registered. Please try another email address.",
       });
 
-    const hash = hashAndSaltPassword(req.body.password);
+    const hash = await hashAndSaltPassword(req.body.password);
     const createdUser = await db.User.create({ ...req.body, password: hash });
 
     return res
       .status(201)
       .json({ status: 201, message: "success", createdUser });
   } catch (error) {
+    console.log(error);
     return res.status(500).json({
       status: 500,
       message: "Something went wrong. Please try again",

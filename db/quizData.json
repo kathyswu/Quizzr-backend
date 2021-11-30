@@ -3,6 +3,7 @@
     {
       "title": "Test your General Knowledge",
       "category": "General",
+      "thumbnail": "https://i.imgur.com/3FjTVyT.png",
       "questions": [
         {
           "question": {
@@ -320,6 +321,7 @@
     {
       "title": "Movies Quiz",
       "category": "Entertainment",
+      "thumbnail": "https://i.imgur.com/3FjTVyT.png",
       "questions": [
         {
           "question": {

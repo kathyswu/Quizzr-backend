@@ -11,6 +11,10 @@ const QuizSchema = new Schema(
       type: String,
       required: true,
     },
+    thumbnail: {
+      type: String,
+      default: "https://i.imgur.com/3FjTVyT.png",
+    },
     questions: [
       {
         question: {

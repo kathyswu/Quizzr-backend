@@ -1,6 +1,6 @@
 const db = require("../models");
 const hashAndSaltPassword = require("../utils/hashAndSaltPassword");
-const { kathy } = require("./userData.json");
+const { test } = require("./userData.json");
 const seedQuizzes = require("./quizData.json");
 
 let userId = "";
@@ -29,9 +29,9 @@ mongoose
 
       console.log(result.deletedCount, " users deleted");
 
-      const hash = await hashAndSaltPassword(kathy.password);
+      const hash = await hashAndSaltPassword(test.password);
 
-      db.User.create({ ...kathy, password: hash }, (error, seededUser) => {
+      db.User.create({ ...test, password: hash }, (error, seededUser) => {
         if (error) {
           console.log(error);
           process.exit();

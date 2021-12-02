@@ -18,6 +18,9 @@ const index = (req, res) => {
 };
 
 const create = (req, res) => {
+  if (req.body.thumbnail === "") {
+    delete req.body.thumbnail;
+  }
   Quiz.create(req.body, (error, savedQuiz) => {
     if (error) {
       console.log("Error in Quiz creation: ", error);

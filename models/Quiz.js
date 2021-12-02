@@ -17,26 +17,22 @@ const QuizSchema = new Schema(
     },
     questions: [
       {
-        question: {
-          text: {
-            type: String,
-            required: true,
-          },
-          options: [
-            {
-              answer: {
-                content: {
-                  type: String,
-                  required: true,
-                },
-                correct: {
-                  type: Boolean,
-                  required: true,
-                },
-              },
-            },
-          ],
+        text: {
+          type: String,
+          required: true,
         },
+        options: [
+          {
+            content: {
+              type: String,
+              required: true,
+            },
+            correct: {
+              type: Boolean,
+              required: true,
+            },
+          },
+        ],
       },
     ],
     user: {

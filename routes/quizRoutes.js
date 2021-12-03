@@ -4,6 +4,7 @@ const controller = require("../controllers");
 
 // Routes
 router.get("/", controller.quiz.index);
+router.get("/userQuizzes", controller.quiz.userQuizzes);
 router.post("/", controller.quiz.create);
 router.put("/:id", controller.quiz.update);
 router.delete("/:id", controller.quiz.destroy);

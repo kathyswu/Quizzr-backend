@@ -36,7 +36,7 @@ const findOne = (req, res) => {
 const userQuizzes = (req, res) => {
   Quiz.find({ user: req.query.id }, (error, foundQuizzes) => {
     if (error) {
-      console.log("Error in userQuizzes: ", error);
+      console.log(`Error in userQuizzes: ${req.query.id}`, error);
       return res.send("Error in userQuizzes controller function");
     }
     res.json({

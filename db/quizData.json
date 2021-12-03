@@ -6,314 +6,214 @@
       "thumbnail": "https://i.imgur.com/3FjTVyT.png",
       "questions": [
         {
-          "question": {
-            "text": "What is the capital of the United States of America?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Washington, DC",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Miami, FL",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "New York City, NY",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Los Angeles, CA",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What is the capital of the United States of America?",
+          "options": [
+            {
+              "content": "Washington, DC",
+              "correct": true
+            },
+            {
+              "content": "Miami, FL",
+              "correct": false
+            },
+            {
+              "content": "New York City, NY",
+              "correct": false
+            },
+            {
+              "content": "Los Angeles, CA",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "How many continents are there in the world?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "5",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "6",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "7",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "8",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "How many continents are there in the world?",
+          "options": [
+            {
+              "content": "5",
+              "correct": false
+            },
+            {
+              "content": "6",
+              "correct": false
+            },
+            {
+              "content": "7",
+              "correct": true
+            },
+            {
+              "content": "8",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What year was the first Super Bowl played?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "1955",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "1962",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "1967",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "1971",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What year was the first Super Bowl played?",
+          "options": [
+            {
+              "content": "1955",
+              "correct": false
+            },
+            {
+              "content": "1962",
+              "correct": false
+            },
+            {
+              "content": "1967",
+              "correct": true
+            },
+            {
+              "content": "1971",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What sport uses a shuttlecock?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Badminton",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Ping-Pong",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Football",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Tennis",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What sport uses a shuttlecock?",
+          "options": [
+            {
+              "content": "Badminton",
+              "correct": true
+            },
+            {
+              "content": "Ping-Pong",
+              "correct": false
+            },
+            {
+              "content": "Football",
+              "correct": false
+            },
+            {
+              "content": "Tennis",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What is the term for a baby goat?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Kid",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Goat Pup",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Sheep",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Child",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What is the term for a baby goat?",
+          "options": [
+            {
+              "content": "Kid",
+              "correct": true
+            },
+            {
+              "content": "Goat Pup",
+              "correct": false
+            },
+            {
+              "content": "Sheep",
+              "correct": false
+            },
+            {
+              "content": "Child",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What is the name of Harry Potter's owl?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Owlet",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Hedwig",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Astridge",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Halbert",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What is the name of Harry Potter's owl?",
+          "options": [
+            {
+              "content": "Owlet",
+              "correct": false
+            },
+            {
+              "content": "Hedwig",
+              "correct": true
+            },
+            {
+              "content": "Astridge",
+              "correct": false
+            },
+            {
+              "content": "Halbert",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What is the capital of the United States of America?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Washington, DC",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Miami, FL",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "New York City, NY",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Los Angeles, CA",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "Which country is brie cheese originally from?",
+          "options": [
+            {
+              "content": "France",
+              "correct": true
+            },
+            {
+              "content": "Italy",
+              "correct": false
+            },
+            {
+              "content": "Belgium",
+              "correct": false
+            },
+            {
+              "content": "Spain",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What does the F stand for in FBI?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Famous",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Faculty",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Federal",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Facility",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What does the F stand for in FBI?",
+          "options": [
+            {
+              "content": "Famous",
+              "correct": false
+            },
+            {
+              "content": "Faculty",
+              "correct": false
+            },
+            {
+              "content": "Federal",
+              "correct": true
+            },
+            {
+              "content": "Facility",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "Who are the masters of the Dark Side who want to rule the galaxy?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "The Jedi",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "The Dark Knights",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "The Destroyers",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "The Sith",
-                  "correct": true
-                }
-              }
-            ]
-          }
+          "text": "Who are the masters of the Dark Side who want to rule the galaxy?",
+          "options": [
+            {
+              "content": "The Jedi",
+              "correct": false
+            },
+            {
+              "content": "The Dark Knights",
+              "correct": false
+            },
+            {
+              "content": "The Destroyers",
+              "correct": false
+            },
+            {
+              "content": "The Sith",
+              "correct": true
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What is the most popular ornament to place at the top of a Christmas Tree?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Star",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Reindeer",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Angel",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Bell",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What is the most popular ornament to place at the top of a Christmas Tree?",
+          "options": [
+            {
+              "content": "Star",
+              "correct": false
+            },
+            {
+              "content": "Reindeer",
+              "correct": false
+            },
+            {
+              "content": "Angel",
+              "correct": true
+            },
+            {
+              "content": "Bell",
+              "correct": false
+            }
+          ]
         }
       ],
       "user": ""
@@ -324,469 +224,320 @@
       "thumbnail": "https://i.imgur.com/3FjTVyT.png",
       "questions": [
         {
-          "question": {
-            "text": "Who voices the character 'Woody' in the Toy Story franchise?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Tom Hanks",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Bob Ross",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Tim Allen",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Morgan Freeman",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "Who voices the character 'Woody' in the Toy Story franchise?",
+          "options": [
+            {
+              "content": "Tom Hanks",
+              "correct": true
+            },
+            {
+              "content": "Bob Ross",
+              "correct": false
+            },
+            {
+              "content": "Tim Allen",
+              "correct": false
+            },
+            {
+              "content": "Morgan Freeman",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What is the famous weapon used by Jedi Knights in the Star Wars series?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "The Force",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Light Saber",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Light Sword",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Sith Claw",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What is the famous weapon used by Jedi Knights in the Star Wars series?",
+          "options": [
+            {
+              "content": "The Force",
+              "correct": false
+            },
+            {
+              "content": "Light Saber",
+              "correct": true
+            },
+            {
+              "content": "Light Sword",
+              "correct": true
+            },
+            {
+              "content": "Sith Claw",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What was the name of the second Indiana Jones movie, released in 1984?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Indiana Jones and the Raider of the Lost Ark",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Indiana Jones and the Kingdom of the Crystal Skull",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Indiana Jones and the Last Crusade",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Indiana Jones and the Temple of Doom",
-                  "correct": true
-                }
-              }
-            ]
-          }
+          "text": "What was the name of the second Indiana Jones movie, released in 1984?",
+          "options": [
+            {
+              "content": "Indiana Jones and the Raider of the Lost Ark",
+              "correct": false
+            },
+            {
+              "content": "Indiana Jones and the Kingdom of the Crystal Skull",
+              "correct": false
+            },
+            {
+              "content": "Indiana Jones and the Last Crusade",
+              "correct": false
+            },
+            {
+              "content": "Indiana Jones and the Temple of Doom",
+              "correct": true
+            }
+          ]
         },
         {
-          "question": {
-            "text": "In which year were the Academy Awards (or Oscars) first presented?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "1929",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "1932",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "1945",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "1956",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "In which year were the Academy Awards (or Oscars) first presented?",
+          "options": [
+            {
+              "content": "1929",
+              "correct": true
+            },
+            {
+              "content": "1932",
+              "correct": false
+            },
+            {
+              "content": "1945",
+              "correct": false
+            },
+            {
+              "content": "1956",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "Which movie of Arnold Schwarznegger was first nominated in the Oscars?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "The Teriminator",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Terminator 2: Judgment Day",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Last Action Hero",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Around the World in 80 Days",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "Which movie of Arnold Schwarznegger was first nominated in the Oscars?",
+          "options": [
+            {
+              "content": "The Teriminator",
+              "correct": false
+            },
+            {
+              "content": "Terminator 2: Judgment Day",
+              "correct": true
+            },
+            {
+              "content": "Last Action Hero",
+              "correct": false
+            },
+            {
+              "content": "Around the World in 80 Days",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What is the name of the hobbit played by Elijah Wood in the Lord of the Rings movies?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Legolas",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Bilbo Baggins",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Frodo Baggins",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Gollum",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What is the name of the hobbit played by Elijah Wood in the Lord of the Rings movies?",
+          "options": [
+            {
+              "content": "Legolas",
+              "correct": false
+            },
+            {
+              "content": "Bilbo Baggins",
+              "correct": false
+            },
+            {
+              "content": "Frodo Baggins",
+              "correct": true
+            },
+            {
+              "content": "Gollum",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What actress plays Katniss Everdeen in the Hunger Games movies?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Jennifer Lawrence",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Emma Stone",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Emma Watson",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Jennifer Connelly",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "What actress plays Katniss Everdeen in the Hunger Games movies?",
+          "options": [
+            {
+              "content": "Jennifer Lawrence",
+              "correct": true
+            },
+            {
+              "content": "Emma Stone",
+              "correct": false
+            },
+            {
+              "content": "Emma Watson",
+              "correct": false
+            },
+            {
+              "content": "Jennifer Connelly",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "Which kingdom do Elsa and Anna reside in from the animated movie Frozen?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Falador",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Deltina",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Arendelle",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Akarino",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "Which kingdom do Elsa and Anna reside in from the animated movie Frozen?",
+          "options": [
+            {
+              "content": "Falador",
+              "correct": false
+            },
+            {
+              "content": "Deltina",
+              "correct": false
+            },
+            {
+              "content": "Arendelle",
+              "correct": true
+            },
+            {
+              "content": "Akarino",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "Which English director was responsible for the movie Gladiator in 2000?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Ridley Scott",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "James Cameron",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Steven Spielberg",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Quentin Tarantino",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "Which English director was responsible for the movie Gladiator in 2000?",
+          "options": [
+            {
+              "content": "Ridley Scott",
+              "correct": true
+            },
+            {
+              "content": "James Cameron",
+              "correct": false
+            },
+            {
+              "content": "Steven Spielberg",
+              "correct": false
+            },
+            {
+              "content": "Quentin Tarantino",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "Who played Jack Dawson in the 1997 Titanic movie?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "James Cameron",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Tom Hanks",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Leonardo DiCaprio",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Stephen Fry",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "Who played Jack Dawson in the 1997 Titanic movie?",
+          "options": [
+            {
+              "content": "James Cameron",
+              "correct": false
+            },
+            {
+              "content": "Tom Hanks",
+              "correct": false
+            },
+            {
+              "content": "Leonardo DiCaprio",
+              "correct": true
+            },
+            {
+              "content": "Stephen Fry",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "What is Yoda's last name?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Amidala",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Skywalker",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Baggins",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "He doesn't have one",
-                  "correct": true
-                }
-              }
-            ]
-          }
+          "text": "What is Yoda's last name?",
+          "options": [
+            {
+              "content": "Amidala",
+              "correct": false
+            },
+            {
+              "content": "Skywalker",
+              "correct": false
+            },
+            {
+              "content": "Baggins",
+              "correct": false
+            },
+            {
+              "content": "He doesn't have one",
+              "correct": true
+            }
+          ]
         },
         {
-          "question": {
-            "text": "In which Christmas movie does Jim Carrey try to ruin Christmas?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "How the Grinch Stole Christmas",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Elf",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "The Polar Express",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Home Alone",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "In which Christmas movie does Jim Carrey try to ruin Christmas?",
+          "options": [
+            {
+              "content": "How the Grinch Stole Christmas",
+              "correct": true
+            },
+            {
+              "content": "Elf",
+              "correct": false
+            },
+            {
+              "content": "The Polar Express",
+              "correct": false
+            },
+            {
+              "content": "Home Alone",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "'Baby it's cold outside' is a song from which movie?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "A Christmas Story",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "It's a Wonderful Life",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Elf",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Frosty the Snowman",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "'Baby it's cold outside' is a song from which movie?",
+          "options": [
+            {
+              "content": "A Christmas Story",
+              "correct": false
+            },
+            {
+              "content": "It's a Wonderful Life",
+              "correct": false
+            },
+            {
+              "content": "Elf",
+              "correct": true
+            },
+            {
+              "content": "Frosty the Snowman",
+              "correct": false
+            }
+          ]
         },
         {
-          "question": {
-            "text": "How many siblings does Kevin have in Home Alone?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "1",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "2",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "3",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "4",
-                  "correct": true
-                }
-              }
-            ]
-          }
+          "text": "How many siblings does Kevin have in Home Alone?",
+          "options": [
+            {
+              "content": "1",
+              "correct": false
+            },
+            {
+              "content": "2",
+              "correct": false
+            },
+            {
+              "content": "3",
+              "correct": false
+            },
+            {
+              "content": "4",
+              "correct": true
+            }
+          ]
         },
+
         {
-          "question": {
-            "text": "In The Matrix, what color pill does Neo take?",
-            "options": [
-              {
-                "answer" : {
-                  "content": "Green",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Yellow",
-                  "correct": false
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Red",
-                  "correct": true
-                }
-              },
-              {
-                "answer" : {
-                  "content": "Blue",
-                  "correct": false
-                }
-              }
-            ]
-          }
+          "text": "In The Matrix, what color pill does Neo take?",
+          "options": [
+            {
+              "content": "Green",
+              "correct": false
+            },
+            {
+              "content": "Yellow",
+              "correct": false
+            },
+            {
+              "content": "Red",
+              "correct": true
+            },
+            {
+              "content": "Blue",
+              "correct": false
+            }
+          ]
         }
       ],
       "user": ""

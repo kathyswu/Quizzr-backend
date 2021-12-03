@@ -17,7 +17,22 @@ const index = (req, res) => {
   });
 };
 
-//FIXME: backend server function to find all quizzes by user id
+const findOne = (req, res) => {
+  Quiz.findById(req.params.id, (error, foundQuiz) => {
+    if (error) {
+      console.log("Error in quiz find one: ", error);
+      return res.send("Error in quiz find one controller function");
+    }
+
+    res.json({
+      status: 200,
+      message: "Quiz Sent Back as Response",
+      quiz: foundQuiz,
+      requestedAt: new Date(),
+    });
+  });
+};
+
 const userQuizzes = (req, res) => {
   Quiz.find({ user: req.query.id }, (error, foundQuizzes) => {
     if (error) {
@@ -95,6 +110,7 @@ const destroy = (req, res) => {
 
 module.exports = {
   index,
+  findOne,
   userQuizzes,
   create,
   update,

@@ -45,34 +45,34 @@ Current ready features:
 
 ## Screenshots
 
-![Landing Page](./public/website_images/quizzr0.png)
-![Sign Up](./public/website_images/quizzr1.png)
-![Log In](./public/website_images/quizzr1_1.png)
-![Profile Page](./public/website_images/quizzr2.png)
-![Browse Quizzes Page](./public/website_images/quizzr3.png)
-![Browse Quizzes Quiz Sections](./public/website_images/quizzr4.png)
-![Lobbies Page](./public/website_images/quizzr5.png)
-![Waiting in Lobby](./public/website_images/quizzr6.png)
-![Create Quizzes Page](./public/website_images/quizzr7.png)
-![Create Question and Answer](./public/website_images/quizzr8.png)
-![Play Quiz Page](./public/website_images/quizzr9.png)
-![Play Quiz Answer Page](./public/website_images/quizzr11.png)
+![Landing Page](./images/website_images/quizzr0.png)
+![Sign Up](./images/website_images/quizzr1.png)
+![Log In](./images/website_images/quizzr1_1.png)
+![Profile Page](./images/website_images/quizzr2.png)
+![Browse Quizzes Page](./images/website_images/quizzr3.png)
+![Browse Quizzes Quiz Sections](./images/website_images/quizzr4.png)
+![Lobbies Page](./images/website_images/quizzr5.png)
+![Waiting in Lobby](./images/website_images/quizzr6.png)
+![Create Quizzes Page](./images/website_images/quizzr7.png)
+![Create Question and Answer](./images/website_images/quizzr8.png)
+![Play Quiz Page](./images/website_images/quizzr9.png)
+![Play Quiz Answer Page](./images/website_images/quizzr11.png)
 
 ## Planning
 
-![Wireframe1](./public/website_images/planning2.png)
-![Wireframe2](./public/website_images/planning3.png)
-![Wireframe3](./public/website_images/planning4.png)
-![Wireframe4](./public/website_images/planning5.png)
-![Wireframe5](./public/website_images/planning6.png)
-![Wireframe6](./public/website_images/planning7.png)
-![ERD Diagram](./public/website_images/planning8.png)
-![Sprint1](./public/website_images/planning9.png)
-![Sprint2](./public/website_images/planning10.png)
+![Wireframe1](./images/website_images/planning2.png)
+![Wireframe2](./images/website_images/planning3.png)
+![Wireframe3](./images/website_images/planning4.png)
+![Wireframe4](./images/website_images/planning5.png)
+![Wireframe5](./images/website_images/planning6.png)
+![Wireframe6](./images/website_images/planning7.png)
+![ERD Diagram](./images/website_images/planning8.png)
+![Sprint1](./images/website_images/planning9.png)
+![Sprint2](./images/website_images/planning10.png)
 
 ## User Stories
 
-![User Stories](./public/website_images/planning1.png)
+![User Stories](./images/website_images/planning1.png)
 
 ## Project Status
 
